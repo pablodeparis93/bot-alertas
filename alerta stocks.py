@@ -32,6 +32,23 @@ TICKERS = {
     "NUBANK":        "NU",
     "NOW SERVICES"   "NOW",
     "NVIDIA"         "NVDA",
+    "XLP"            "XLP",
+    "YPF"            "YPF",
+    "BRKB"           "BRK.B",
+    "IBM"            "IBM",
+    "BTC"            "IBIT",
+    "XLF"            "XLF",
+    "BIOCERES"       "BIOX",
+    "NIKE"           "NKE",
+    "RIO TINTO"      "RIO",
+    "VISA"           "V",
+    "IWM"            "IWM",
+    "SHORT SPY"      "SH",
+    "SNAPCHAT"       "SNAP",
+    "ALIBABA"        "BABA",
+    "DIGITAL REALTY" "DLR",
+    "VISTA"          "VIST",
+    "CONSTELLATION ENERGY" "CEG",
 }
 
 RSI_SOBREVENTA    = 35
