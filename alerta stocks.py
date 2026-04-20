@@ -29,6 +29,9 @@ TICKERS = {
     "Microsoft":     "MSFT",
     "Mercado Libre": "MELI",
     "S&P 500":       "SPY",
+    "NUBANK":        "NU",
+    "NOW SERVICES"   "NOW",
+    "NVIDIA"         "NVDA",
 }
 
 RSI_SOBREVENTA    = 35
