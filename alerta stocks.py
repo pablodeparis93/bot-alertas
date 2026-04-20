@@ -53,7 +53,7 @@ TICKERS = {
 
 RSI_SOBREVENTA    = 30
 RSI_SOBRECOMPRA   = 75
-STOCH_SOBREVENTA  = 20
+STOCH_SOBREVENTA  = 30
 STOCH_SOBRECOMPRA = 80
 MINIMO_SEÑALES    = 2   # Cuántos indicadores deben coincidir para alertar
 
