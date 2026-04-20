@@ -31,7 +31,7 @@ TICKERS = {
     "NVIDIA":         "NVDA",
     "XLP":            "XLP",
     "YPF":            "YPF",
-    "BRKB":           "BRK.B",
+    "BRKB":           "BRKB",
     "IBM":            "IBM",
     "BTC":            "IBIT",
     "XLF":            "XLF",
@@ -50,7 +50,7 @@ TICKERS = {
  
 RSI_SOBREVENTA    = 30
 RSI_SOBRECOMPRA   = 70
-STOCH_SOBREVENTA  = 20
+STOCH_SOBREVENTA  = 25
 STOCH_SOBRECOMPRA = 80
 MINIMO_SEÑALES    = 2
  
