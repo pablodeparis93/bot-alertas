@@ -278,7 +278,7 @@ if __name__ == "__main__":
         "\n⏱ Verificación automática cada 1 hora."
     )
     verificar_todas()
-    schedule.every(1).hours.do(verificar_todas)
+    schedule.every().day.at("14:00").do(verificar_todas)
     while True:
         schedule.run_pending()
         time.sleep(60)
