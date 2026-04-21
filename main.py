@@ -274,7 +274,7 @@ if __name__ == "__main__":
         "📊 Monitoreando:\n" +
         "\n".join([f"  • {n}" for n in TICKERS.keys()]) +
         "\n\n📐 Indicadores: MACD · RSI · Estocástico · MA200"
-        "\n⏱ Verificación automática cada 1 hora."
+        "\n⏱ Verificación automática todos los días a las 11:00 AM."
     )
     verificar_todas()
     schedule.every().day.at("14:00").do(verificar_todas)
