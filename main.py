@@ -31,7 +31,6 @@ TICKERS = {
     "NVIDIA":         "NVDA",
     "XLP":            "XLP",
     "YPF":            "YPF",
-    "BRKB":           "BRK.B",
     "IBM":            "IBM",
     "BTC":            "IBIT",
     "XLF":            "XLF",
