@@ -311,6 +311,7 @@ if __name__ == "__main__":
     )
     verificar_todas()
     schedule.every().day.at("14:00").do(verificar_todas)
+    schedule.every().day.at("18:00").do(verificar_todas)
     while True:
         schedule.run_pending()
         time.sleep(60)
