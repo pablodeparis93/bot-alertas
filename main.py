@@ -89,7 +89,7 @@ def obtener_y_calcular(ticker, periodo, intervalo):
     df["MACD"], df["MACD_signal"], df["MACD_hist"] = calcular_macd(close)
     df["RSI"]                                       = calcular_rsi(close)
     df["STOCH_K"], df["STOCH_D"]                   = calcular_estocastico(high, low, close)
-    df["MA200"]                                     = close.rolling(window=200).mean()
+    df["MA200"]                                     = close.ewm(span=200, adjust=False).mean()
 
     return df.dropna()
 
