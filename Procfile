@@ -1,1 +1,1 @@
-worker: python bot_alertas.py
+worker: python main.py
