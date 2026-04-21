@@ -26,12 +26,32 @@ TICKERS = {
     "Microsoft":     "MSFT",
     "Mercado Libre": "MELI",
     "S&P 500":       "SPY",
+    "NUBANK":        "NU",
+    "NOW SERVICES":   "NOW",
+    "NVIDIA":         "NVDA",
+    "XLP":            "XLP",
+    "YPF":            "YPF",
+    "BRKB":           "BRK.B",
+    "IBM":            "IBM",
+    "BTC":            "IBIT",
+    "XLF":            "XLF",
+    "BIOCERES":       "BIOX",
+    "NIKE":           "NKE",
+    "RIO TINTO":      "RIO",
+    "VISA":           "V",
+    "IWM":            "IWM",
+    "SHORT SPY":      "SH",
+    "SNAPCHAT":       "SNAP",
+    "ALIBABA":        "BABA",
+    "DIGITAL REALTY": "DLR",
+    "VISTA":          "VIST",
+    "CONSTELLATION ENERGY": "CEG",
 }
 
-RSI_SOBREVENTA    = 35
-RSI_SOBRECOMPRA   = 65
-STOCH_SOBREVENTA  = 20
-STOCH_SOBRECOMPRA = 80
+RSI_SOBREVENTA    = 30
+RSI_SOBRECOMPRA   = 70
+STOCH_SOBREVENTA  = 19
+STOCH_SOBRECOMPRA = 81
 MINIMO_SEÑALES    = 2
 
 # ================================================================
